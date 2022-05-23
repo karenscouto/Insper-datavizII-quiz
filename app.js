@@ -1,7 +1,7 @@
 // Declara variáveis globais
 let quiz   = document.querySelector( '.quiz' )
 let result = document.querySelector( '.erroouacerto' )
-let answer = document.querySelector( '.explicacao' )
+let answer = document.querySelector( '.resultado' )
 let proxima = document.querySelector( '.proxima' )
 let anterior = document.querySelector( '.anterior' )
 let botoes = document.querySelector( '.botoes' )
@@ -68,9 +68,6 @@ function checkAnswer( event ) {
 
   // Mostra .answer
   answer.style.display = 'flex'
-
-    // Mostra mapa
-  mapa.style.display = 'initial'
 
   //Mostra botão de próxima pergunta
   botoes.style.display = 'flex'
