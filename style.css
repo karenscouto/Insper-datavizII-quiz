@@ -91,7 +91,7 @@ li.clicked.correta{
 }
 
 .explicacao {
-    display:none;
+    display:block;
     justify-content: center;
     max-width:60%;
     font-size:15px;
@@ -113,7 +113,7 @@ li.clicked.correta{
 }
 
 .botoes {
-    display: none;
+    display: block;
     width: 60%;
     gap: 5px; 
     justify-content: center;
