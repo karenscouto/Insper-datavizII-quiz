@@ -43,6 +43,9 @@ img {
     border-radius: 10px;
 
 }
+.resultado {
+    display: none;
+}
 
 ul {
     overflow: hidden;
